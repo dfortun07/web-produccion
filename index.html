@@ -1,46 +1,76 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <title>Title</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine Estelar</title>
 
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"
-        />
-    </head>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
 
-    <body>
-        <header>
-            <!-- place navbar here -->
-        </header>
-        <main>
-             <h1>UWU </h1>
-             <p> esto es ada</p>
-        </main>
-        
-        <footer>
-            <!-- place footer here -->
-        </footer>
-        <!-- Bootstrap JavaScript Libraries -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"
-        ></script>
+<body class="bg-dark text-light">
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container">
+            <a class="navbar-brand" href="#">Cine Estelar</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="py-5 text-center">
+        <div class="container">
+            <h1 class="fw-bold">Disfruta las mejores películas</h1>
+            <p class="lead">Cartelera actualizada y estrenos de cada semana.</p>
+            <button id="btn-info" class="btn btn-warning btn-lg mt-3">
+                Ver mensaje
+            </button>
+        </div>
+    </section>
+
+    <!-- CARTELERA -->
+    <section class="container pb-5">
+        <h2 class="text-center mb-4">Cartelera destacada</h2>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card bg-secondary text-light">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZTg0MzIyMzktNzZmOC00ZjljLWE2OTktOGU1ZTJiZWQzZjE3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg" class="card-img-top" alt="Película 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Inception</h5>
+                        <p class="card-text">Un ladrón especializado en entrar en los sueños se enfrenta a su misión más difícil.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-secondary text-light">
+                    <img src="https://m.media-amazon.com/images/I/71niXI3lxlL._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Película 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Interstellar</h5>
+                        <p class="card-text">Un viaje a través del espacio para encontrar un nuevo hogar para la humanidad.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-secondary text-light">
+                    <img src="https://m.media-amazon.com/images/I/51EG732BV3L.jpg" class="card-img-top" alt="Película 3">
+                    <div class="card-body">
+                        <h5 class="card-title">The Matrix</h5>
+                        <p class="card-text">Neo descubre que la realidad podría no ser lo que parece.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Archivo JS externo -->
+    <script src="script.js"></script>
+
+</body>
 </html>
